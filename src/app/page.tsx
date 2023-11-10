@@ -12,9 +12,6 @@ export default async function Home() {
       <Suspense fallback={<p>Carregando...</p>}>
         <GithubUser username="maybrito"/>
       </Suspense>
-
-      
-      
     </DialogProvider>
     
   )
